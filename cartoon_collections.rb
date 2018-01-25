@@ -19,17 +19,6 @@ def long_planeteer_calls(long_calls)
 end #method
 
 def find_the_cheese(cheese_find)
-  nil unless cheese_find.include?("cheddar" || "gouda" || "camembert")
-  if cheese_find.include?("cheddar")
-    return "cheddar"
-  elsif cheese_find.include?("gouda")
-    return "gouda"
-  elsif cheese_find.include?("camembert")
-    return "camembert"
-  end #if statement
-end #method
-
-def find_the_cheese(cheese_find)
   cheeses = %w(gouda cheddar camembert)
 
   cheese_find do |maybe_cheese|
