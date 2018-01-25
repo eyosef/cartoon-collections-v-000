@@ -28,7 +28,7 @@ end #method
 def find_the_cheese(cheese_find)
   cheeses = %w(gouda cheddar camembert)
 
-  cheese_find.find do |maybe_cheese|
+  cheese_find.find do |cheese|
     cheeses.include?(maybe_cheese)
   end
 end
