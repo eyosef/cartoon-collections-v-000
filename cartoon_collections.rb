@@ -29,7 +29,7 @@ def find_the_cheese(cheese_find)
   end #if statement
 end #method
 
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(cheese_find)
   cheeses = %w(gouda cheddar camembert)
 
   potentially_cheesy_items.find do |maybe_cheese|
